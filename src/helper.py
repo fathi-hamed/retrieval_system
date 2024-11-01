@@ -37,7 +37,7 @@ def get_vector_store(text_chunks):
     return vector_store
 
 
-
+# chain
 def get_conversational_chain(vector_store):
     llm=GooglePalm()
     memory = ConversationBufferMemory(memory_key = "chat_history", return_messages=True)
