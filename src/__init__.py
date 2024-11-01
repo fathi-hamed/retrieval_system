@@ -1,0 +1,1 @@
+from langchain_community.embeddings.google_palm import GooglePalmEmbeddings
